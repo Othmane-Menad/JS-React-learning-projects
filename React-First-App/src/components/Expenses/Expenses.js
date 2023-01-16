@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
 import Card from "../UI/Card";
 const Expenses = (props) => {
-  // After props always should be expenses because we declared it in App.js as expenses=expenses_
+  // After props always should be items because we declared it in App.js as items=expenses_
   return (
     <Card className="expenses">
       <ExpenseItem
